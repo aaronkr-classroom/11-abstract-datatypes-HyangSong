@@ -15,7 +15,7 @@ double grade(double midterm, double final, double homework) {
 }
 
 // grade(double, double, const vector<double>&)
-double grade(double midterm, double final, const Vec<double>& hw) {
+double grade(double midterm, doublse final, const Vec<double>& hw) {
 	if (hw.size() == 0)
 		throw domain_error("No homework entered!");
 
